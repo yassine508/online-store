@@ -1,0 +1,108 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    padding: 20px;
+  }
+  
+  header .brand {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  header .nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header .nav-item {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  header .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  /* Product Section */
+  #products {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  
+  #products .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #products .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  #products .card-body {
+    padding: 20px;
+  }
+  
+  #products .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  #products .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  #products .btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  #products .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 767px) {
+    header .nav-item {
+      display: block;
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .brand {
+      font-size: 1.5rem;
+    }
+  
+    .card-title {
+      font-size: 1rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }
+  
